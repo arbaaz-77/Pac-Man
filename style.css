@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(39, 36, 36);
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 425px;
+  height: 425px;
+  border: solid black;
+  background-color: black;
+}
+
+.grid div {
+  width: 15px;
+  height: 15px;
+}
+
+.pac-dot {
+  background-color: rgb(211, 206, 141);
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.power-pellet {
+  background-color: rgb(211, 206, 141);
+  border-radius: 7.5px;
+}
+
+.pacman {
+  background-color: yellow;
+  border-radius: 7.5px;
+  border: none;
+}
+
+.ghost-lair {
+  background-color: gray;
+}
+
+.blinky {
+  background-color: red;
+  border: none;
+}
+
+.pinky {
+  background-color: pink;
+  border: none;
+}
+
+.inky {
+  background-color: purple;
+  border: none;
+}
+
+.clyde {
+  background-color: orange;
+  border: none;
+}
+
+.scared-ghost {
+  background-color: aquamarine;
+  border: none;
+}
